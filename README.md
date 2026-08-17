@@ -1,3 +1,6 @@
+<img width="128" height="128" alt="image" src="https://github.com/user-attachments/assets/6e3d0a5b-40d7-4b6d-be6f-2d3f3dc02784" />
+
+
 ## IXL AI Auto-Solver
 
 is a Chrome Manifest V3 browser extension that automatically solves IXL homework and practice questions using AI vision models. When you click the floating button on any IXL page, the extension captures a screenshot of the visible tab, precisely crops the region containing the question using the browser's `OffscreenCanvas` API with full device-pixel-ratio awareness, and sends the cropped image to your chosen AI provider. The AI is asked to solve the problem and return an exact answer — the value you would type or click in IXL — along with a one-to-two sentence explanation of the reasoning. Before returning that answer to you, the extension makes a second, fully independent API call to the same model, showing it the same image and the proposed answer and asking it to solve the problem from scratch and assess whether the first answer is correct. If the second call disagrees, the extension automatically adopts the corrected answer, flags it with a yellow warning banner showing the original wrong answer for transparency, and surfaces the correction reasoning. Only after both calls complete does the final answer appear in the floating answer card and get automatically copied to your clipboard.
