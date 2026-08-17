@@ -112,5 +112,6 @@ Scrollable list of the last 50 solved answers, stored in `chrome.storage.local` 
 - **All API calls from background** — IXL's CSP blocks external fetches from content scripts. Every API call goes through the background Service Worker via the persistent port.
 - **Storage** — `chrome.storage.local` for all API keys, provider selection, model selections per provider, and answer history. `localStorage` for button position only (page-scoped, no cross-origin sharing needed).
 
-<img width="1600" height="224" alt="image" src="https://github.com/user-attachments/assets/47fd52c4-4d85-4687-b5e2-ab931022dbf7" />
+<img width="1600" height="182" alt="image" src="https://github.com/user-attachments/assets/66cdb721-65e9-4c2a-9469-f4538a5da4cb" />
+
 
